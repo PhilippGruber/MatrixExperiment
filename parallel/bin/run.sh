@@ -41,10 +41,3 @@ java de/tuchemnitz/se/openmp/Main
 cd .. 
 cd .. 
 echo "64 Cores - finished" 
-
-echo "128 Cores - start"
-cd ./cores/128
-java de/tuchemnitz/se/openmp/Main
-cd .. 
-cd .. 
-echo "128 Cores - finished" 
