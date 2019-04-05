@@ -15,7 +15,7 @@ public class MatrixMultiplicatorVariantB extends MatrixMultiplicator {
 		long start,end;
 		start = System.nanoTime();
 
-		// omp parallel for schedule(static) threadNum(64)
+		// omp parallel for schedule(static) threadNum(32)
 		for (int i = 0; i < matrixA.getWidth(); i++) {
 			for (int k = 0; k < matrixB.getHeight(); k++) {
 				for (int j = 0; j < matrixA.getHeight(); j++) {
